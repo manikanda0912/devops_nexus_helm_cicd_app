@@ -8,7 +8,7 @@ pipeline {
 
             agent{
 
-                dockerContainer {
+                docker {
                     image 'maven'
                 }
             }
